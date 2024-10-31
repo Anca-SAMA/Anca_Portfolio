@@ -38,7 +38,7 @@ ON u.id=us.id
 WHERE Mean<>0
 GROUP BY u.State_Name;
 
-#By state , what is their average invcome , and their median income 
+#By state , what is their average income , and their median income 
 
 SELECT u.State_Name, 
 ROUND(AVG(Mean),1),
